@@ -1,7 +1,7 @@
 import React from 'react'
 
-const ContactPage = () => {
+const ONasPage = () => {
   return <div>2</div>
 }
 
-export default ContactPage
+export default ONasPage
