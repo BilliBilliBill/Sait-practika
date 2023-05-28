@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import ContactPage from './pages/contact'
+import HomePage from './pages/home'
+import { HeaderPage } from './pages/header'
+import ONasPage from './pages/oNas'
+import SkidkiPage from './pages/Skidki'
+import KatalogPage from './pages/katalog'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          учим реакт
-        </a>
-      </header>
+      <BrowserRouter>
+        <HeaderPage />
+        <Routes>
+          <Route path={'/'} element={<HomePage />} />
+          <Route path={'/contact'} element={<ContactPage />} />
+          <Route path={'/oNas'} element={<ONasPage />} />
+          <Route path={'/Skidki'} element={<SkidkiPage />} />
+          <Route path={'/Katalog'} element={<KatalogPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

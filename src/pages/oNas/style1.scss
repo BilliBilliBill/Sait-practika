@@ -1,0 +1,48 @@
+.o_nas {
+  position: absolute;
+  width: 156px;
+  height: 24px;
+  left: 19px;
+  top: 100px;
+
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 130%;
+  /* or 42px */
+
+  display: flex;
+  text-align: left;
+
+  color: #122947;
+}
+.o_nas_text {
+  position: absolute;
+  width: 838px;
+  height: 632px;
+  left: 19px;
+  top: 204px;
+
+  font-family: 'Mplus 1p';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 145%;
+  /* or 35px */
+
+  display: flex;
+  text-align: left;
+
+  color: #122947;
+}
+.prozrachost {
+  position: absolute;
+  width: 1300px;
+  height: 800px;
+  left: 162px;
+  top: 1px;
+
+  background-image: url(прозрачность.png);
+  opacity: 0.3;
+}

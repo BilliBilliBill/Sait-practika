@@ -1,4 +1,7 @@
 .App {
+  max-width: calc(100% - 98px);
+  height: calc(100% - 40px);
+  margin: auto auto;
   text-align: center;
 }
 
@@ -21,7 +24,6 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
