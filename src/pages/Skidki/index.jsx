@@ -2,9 +2,10 @@ import './style.scss'
 
 const SkidkiPage = () => {
   return (
-    <div className="katalog">
-      <div className="katalogs_header">
-        <div className="medium-text1">MarooN</div>
+    <div className="skidki">
+      <div className="skidkis_header">
+        <h1 class="sohr">Сохраняем цены</h1>
+        <h3 className="product">Продукты по ценам 2021 года</h3>
         <div className={'tovars'}>
           <div className={'tovar'}>
             <img className={'t1'} src={'/images/t1.png'}></img>

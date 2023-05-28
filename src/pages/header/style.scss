@@ -2,14 +2,12 @@
 .header {
   padding-top: 40px;
   display: flex;
-  z-index: 1;
 
   &__menu {
     flex: 2;
     display: flex;
     > div {
       flex: 1;
-
       a {
         position: absolute;
         text-decoration: none;

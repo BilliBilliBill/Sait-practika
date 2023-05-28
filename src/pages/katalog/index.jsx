@@ -4,7 +4,6 @@ const KatalogPage = () => {
   return (
     <div className="katalog">
       <div className="kataloss_header">
-        <div className="medium-text1">MarooN</div>
         <div className={'tovars'}>
           <div className={'tovar'}>
             <img className={'t1'} src={'/images/t1.png'}></img>

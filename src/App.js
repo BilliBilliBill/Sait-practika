@@ -6,6 +6,7 @@ import { HeaderPage } from './pages/header'
 import ONasPage from './pages/oNas'
 import SkidkiPage from './pages/Skidki'
 import KatalogPage from './pages/katalog'
+import { FooterPage } from './pages/footer'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path={'/Skidki'} element={<SkidkiPage />} />
           <Route path={'/Katalog'} element={<KatalogPage />} />
         </Routes>
+        <FooterPage />
       </BrowserRouter>
     </div>
   )

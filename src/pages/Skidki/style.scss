@@ -6,7 +6,7 @@
   position: absolute;
   left: 10%;
   right: 10%;
-  top: 120.4px;
+  top: 229.4px;
 }
 .tovar {
   padding-top: 20px;
@@ -29,13 +29,7 @@ th {
   font-style: normal;
   font-size: 16px;
 }
-.PrisoedFon1 {
-  position: absolute;
-  width: 100%;
-  height: 433px;
-  left: 0px;
-  top: 1300px;
-}
+
 .Pr11 {
   position: absolute;
   width: 553px;
@@ -74,4 +68,32 @@ th {
   text-align: left;
 
   color: #122947;
+}
+.sohr {
+  position: absolute;
+  width: 100%;
+  height: 64px;
+  top: 70px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 77px;
+
+  color: #000000;
+}
+.product {
+  position: absolute;
+  width: 100%;
+  height: 46px;
+  top: 165px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
 }
