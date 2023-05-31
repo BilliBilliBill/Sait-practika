@@ -1,36 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap');
+
 .medium-text {
   position: absolute;
   width: 260px;
   height: 40px;
   left: 553px;
   top: 192px;
-
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 108px;
   line-height: 68px;
   display: flex;
   align-items: center;
-
   color: #122947;
 }
+
 .medium-text-text {
   position: absolute;
   width: 260px;
   height: 40px;
   left: 800px;
   top: 250px;
-
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 68px;
   display: flex;
   align-items: center;
-
   color: #122947;
 }
 
@@ -38,14 +34,15 @@
   position: absolute;
   width: 330px;
   height: 422px;
-  left: calc(50% + 340px);
+  left: 10%;
   top: 131px;
 }
+
 .kartinki2 {
   position: absolute;
   width: 330px;
   height: 422px;
-  right: calc(50% + 340px);
+  right: 10%;
   top: 131px;
 }
 
@@ -56,6 +53,7 @@
   left: 398px;
   top: 790px;
 }
+
 .kartinki12 {
   position: absolute;
   width: 230px;
@@ -63,6 +61,7 @@
   left: 658px;
   top: 790px;
 }
+
 .kartinki13 {
   position: absolute;
   width: 230px;
@@ -70,6 +69,7 @@
   left: 918px;
   top: 790px;
 }
+
 .kartinki14 {
   position: absolute;
   width: 230px;
@@ -77,78 +77,66 @@
   left: 1178px;
   top: 790px;
 }
+
 .Best {
   position: absolute;
   width: 240px;
   height: 23px;
   left: 37px;
   top: 846px;
-
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 130%;
-  /* or 42px */
-
   text-align: left;
-
   color: #122947;
 }
+
 .BestOp {
   position: absolute;
   width: 240px;
   height: 171px;
   left: 37px;
   top: 900px;
-
-  font-family: 'Inter';
-  font-style: normal;
+  font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   text-align: left;
-
   color: #000000;
 }
+
 .pris {
   position: absolute;
   width: 366px;
   height: 23px;
   left: 868px;
   top: 1800px;
-
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 130%;
-  /* or 42px */
-
   display: flex;
   text-align: left;
-
   color: #122947;
 }
+
 .pod {
   position: absolute;
   width: 381px;
   height: 39px;
   left: 868px;
-  top: 1900px;
-  font-family: 'Mplus 1p';
-  font-style: normal;
+  top: 1950px;
+  font-family: 'M PLUS 1p', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 145%;
-  /* or 26px */
-
   display: flex;
   align-items: center;
   text-align: left;
-
   color: #122947;
 }
+
 .g1 {
   position: absolute;
   width: 254px;
@@ -156,6 +144,7 @@
   left: 19px;
   top: 1783px;
 }
+
 .g2 {
   position: absolute;
   width: 251px;
@@ -163,6 +152,7 @@
   left: 273px;
   top: 1783px;
 }
+
 .g3 {
   position: absolute;
   width: 256px;
@@ -170,6 +160,7 @@
   left: 524px;
   top: 1783px;
 }
+
 .g4 {
   position: absolute;
   width: 257.63px;
@@ -177,6 +168,7 @@
   left: 19px;
   top: 2033.78px;
 }
+
 .g5 {
   position: absolute;
   width: 251px;
@@ -184,6 +176,7 @@
   left: 273px;
   top: 2034px;
 }
+
 .g6 {
   position: absolute;
   width: 256px;
@@ -191,15 +184,16 @@
   left: 524px;
   top: 2034px;
 }
+
 .contact {
   position: absolute;
   width: 670px;
   height: 554px;
   left: 19px;
   top: 2360px;
-
   background: #f4f1ed;
 }
+
 .Cont {
   position: absolute;
   width: 670px;
@@ -207,6 +201,7 @@
   left: 598px;
   top: 125px;
 }
+
 .naz {
   position: relative;
   width: 55px;
@@ -214,104 +209,85 @@
   left: 105px;
   top: 150px;
   margin-bottom: 35px;
-
-  font-family: 'Mplus 1p';
-  font-style: normal;
+  font-family: 'M PLUS 1p', sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 145%;
-  /* or 26px */
-
   display: flex;
   align-items: center;
   text-align: left;
-
   color: #122947;
 }
+
 .tex {
   position: relative;
   width: 256px;
   height: 39px;
   left: 102px;
   top: 127px;
-
-  font-family: 'Mplus 1p';
-  font-style: normal;
+  font-family: 'M PLUS 1p', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 145%;
-  /* or 26px */
-
   align-items: center;
   text-align: left;
-
   color: #122947;
 }
+
 .Contacti {
   position: absolute;
   width: 142px;
   height: 23px;
   left: 105px;
   top: 90px;
-
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 32px;
-  /* or 42px */
-
   display: flex;
   align-items: center;
-
   color: #122947;
 }
+
 .PrisoedFon {
   position: absolute;
   width: 1480px;
   height: 433px;
   left: 0px;
-  top: 1300px;
+  top: 1200px;
 }
+
 .Pr {
   position: absolute;
   width: 553px;
   height: 23px;
   left: 15px;
-  top: 1433px;
-
-  font-family: 'Raleway';
-  font-style: normal;
+  top: 1333px;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 36px;
   line-height: 130%;
-  /* or 47px */
-
   display: flex;
   align-items: center;
   text-align: left;
-
   color: #122947;
 }
+
 .Pr1 {
   position: absolute;
   width: 553px;
   height: 23px;
   left: 15px;
-  top: 1533px;
-
-  font-family: 'Raleway';
-  font-style: normal;
+  top: 1433px;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 24px;
   line-height: 130%;
-  /* or 47px */
-
   display: flex;
   align-items: center;
   text-align: left;
-
   color: #122947;
 }
+
 .but {
   position: absolute;
   width: 188px;
@@ -322,6 +298,7 @@
   color: black;
   border: 2px solid #e7e7e7;
 }
+
 .but1 {
   position: absolute;
   width: 207px;
@@ -331,4 +308,10 @@
   background-color: white;
   color: black;
   border: 2px solid #e7e7e7;
+}
+
+.but:hover,
+.but1:hover {
+  background-color: #3e8e41;
+  color: white;
 }

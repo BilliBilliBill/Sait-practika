@@ -1,31 +1,30 @@
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&family=M+PLUS+1p:wght@400;700&display=swap');
+
 .medium-text1 {
   position: absolute;
   width: 260px;
   height: 40px;
   left: 553px;
   top: 100px;
-
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 108px;
-  line-height: 68px;
+  line-height: 1;
   display: flex;
   align-items: center;
-
   color: #122947;
   z-index: 1;
 }
+
 .contact1 {
   position: absolute;
   width: 670px;
   height: 554px;
   left: 19px;
   top: 150px;
-
   background: #f4f1ed;
 }
+
 .Cont11 {
   position: absolute;
   width: 670px;
@@ -41,53 +40,70 @@
   left: 105px;
   top: 150px;
   margin-bottom: 35px;
-
-  font-family: 'Mplus 1p';
-  font-style: normal;
+  font-family: 'M PLUS 1p', sans-serif;
   font-weight: 500;
   font-size: 18px;
-  line-height: 145%;
-  /* or 26px */
-
+  line-height: 1.45;
   display: flex;
   text-align: left;
-
   color: #122947;
 }
+
 .tex11 {
   position: relative;
   width: 256px;
   height: 39px;
   left: 102px;
   top: 127px;
-
-  font-family: 'Mplus 1p';
-  font-style: normal;
+  font-family: 'M PLUS 1p', sans-serif;
   font-weight: 400;
   font-size: 18px;
-  line-height: 145%;
-  /* or 26px */
-
+  line-height: 1.45;
   display: flex;
   text-align: left;
-
   color: #122947;
 }
+
 .Contacti11 {
   position: absolute;
   width: 142px;
   height: 23px;
   left: 105px;
   top: 90px;
-
-  font-family: 'Raleway';
-  font-style: normal;
+  font-family: 'Raleway', sans-serif;
   font-weight: 500;
   font-size: 32px;
-  /* or 42px */
-
   color: #122947;
 }
-.contact {
-  top: 200px;
+
+/* Additional Styling */
+
+body {
+  background-color: #fafafa;
+  font-family: 'M PLUS 1p', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.3;
+  color: #122947;
+  margin-bottom: 20px;
+}
+
+.section-content {
+  font-size: 18px;
+  line-height: 1.45;
+  color: #122947;
 }

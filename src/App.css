@@ -1,8 +1,9 @@
 .App {
   max-width: calc(100% - 98px);
   height: calc(100% - 40px);
-  margin: auto auto;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -18,7 +19,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: calc(100vh - 100px); /* Adjust the height to match your footer height */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,3 +39,4 @@
     transform: rotate(360deg);
   }
 }
+

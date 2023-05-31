@@ -24,7 +24,6 @@ export const FooterPage = () => {
           <Link to={'/katalog'}>Каталог </Link>
         </p>
       </div>
-      <div></div>
     </div>
   )
 }
