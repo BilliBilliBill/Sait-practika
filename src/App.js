@@ -7,7 +7,6 @@ import ONasPage from './pages/oNas'
 import SkidkiPage from './pages/Skidki'
 import KatalogPage from './pages/katalog'
 import { FooterPage } from './pages/footer'
-import ProductCard from './pages/kartochka'
 
 function App() {
   return (
@@ -22,7 +21,6 @@ function App() {
               <Route path={'/oNas'} element={<ONasPage />} />
               <Route path={'/Skidki'} element={<SkidkiPage />} />
               <Route path={'/Katalog'} element={<KatalogPage />} />
-              <Route path={'/kartochka'} element={<ProductCard />} />
             </Routes>
           </div>
           <FooterPage />
