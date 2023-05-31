@@ -164,7 +164,9 @@ const SkidkiPage = () => {
               </tr>
             </table>
             <div>
-              <button className={'Podrob'}>Подробнее</button>
+              <button className={'Podrob'} href="/kartochka">
+                Подробнее
+              </button>
             </div>
           </div>
           <div className={'tovar'}>
@@ -179,7 +181,9 @@ const SkidkiPage = () => {
                 <td>50ml</td>
               </tr>
             </table>
-            <button className={'Podrob'}>Подробнее</button>
+            <button className={'Podrob'} onclick="location.href = '/kartochka'">
+              Подробнее
+            </button>
           </div>
           <div className={'tovar'}>
             <img className={'t12'} src={'/images/t12.png'}></img>
