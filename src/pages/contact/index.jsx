@@ -16,6 +16,7 @@ const ContactPage = () => {
           <div className={'tex11'}>info@maroon.ru</div>
         </div>
       </div>
+      <contacts__footer></contacts__footer>
     </div>
   )
 }

@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100&display=swap');
+
 .header {
   padding-top: 40px;
   display: flex;
+  position: relative;
+  padding-right: 29px;
 
   &__menu {
     flex: 2;
@@ -9,8 +12,9 @@
 
     > div {
       flex: 1;
+      position: relative;
       a {
-        position: absolute;
+        position: relative;
         text-decoration: none;
         padding-right: 35px;
         font-family: 'M PLUS 1p', sans-serif;
@@ -26,20 +30,58 @@
       }
     }
   }
+
   &__logo {
     flex: 2 1;
     display: flex;
     margin-left: 10%;
   }
+
   &__icons {
     flex: 1;
     display: flex;
+
     > div {
       padding-right: 30px;
     }
+
     > div:last-child {
       padding-right: 0;
     }
+
     justify-content: right;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header__burger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 1199px) {
+  .header__burger-menu.visible {
+    display: block;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__menu.open {
+    display: block;
+    position: absolute;
+    top: calc(100% + 10px);
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 2;
+
+    > div {
+      margin-bottom: 10px;
+    }
   }
 }

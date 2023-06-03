@@ -55,7 +55,7 @@ const HomePage = () => {
           <div className={'tex'}>info@maroon.ru</div>
         </div>
       </div>
-      <div className={'footer'}></div>
+      <home__footer></home__footer>
     </div>
   )
 }

@@ -10,6 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 
   &__menu {
     display: flex;
@@ -35,5 +36,31 @@
         }
       }
     }
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    min-height: auto;
+    padding: 10px 0;
+    justify-content: center;
+  }
+
+  .footer__menu {
+    flex-direction: row;
+  }
+
+  .footer__menu img {
+    width: 60px;
+    margin-bottom: -5px;
+    margin-right: 5px;
+  }
+
+  .footer__menu .str {
+    margin-right: 5px;
+    margin-bottom: 5px;
   }
 }

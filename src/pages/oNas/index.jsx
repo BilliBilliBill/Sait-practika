@@ -4,7 +4,7 @@ const ONasPage = () => {
   return (
     <div className="o_nas">
       <div className="o_nas_header">
-        <div className="o_nas">О нас</div>
+        <div className="nas">О нас</div>
         <div className="o_nas_text">
           Компания MarooN – семейная компания, основанная членами одного
           <br></br>
@@ -26,8 +26,8 @@ const ONasPage = () => {
           Штаб-квартира компании находится в Парме (Италия),<br></br>
           дистрибьюторская сеть охватывает 60 стран мира.
         </div>
-        <div className="prozrachost"></div>
       </div>
+      <onas__footer></onas__footer>
     </div>
   )
 }
