@@ -1,29 +1,46 @@
 import React from 'react'
-import './style.scss'
-import { Link } from 'react-router-dom'
-export const FooterPage = () => {
+import { Container, Row, Col } from 'react-bootstrap'
+
+const Footer = () => {
   return (
-    <div className={'footer'}>
-      <div className={'footer__menu'}>
-        <p className="alignright">
-          <img src={'/assest/MAROON.png'} />
-        </p>
-        <p className={'str'}>
-          <Link to={'/'}>Главная </Link>
-        </p>
-        <p className={'str'}>
-          <Link to={'/ONas'}>О нас </Link>
-        </p>
-        <p className={'str'}>
-          <Link to={'/Skidki'}>Скидки </Link>
-        </p>
-        <p className={'str'}>
-          <Link to={'/contact'}>Контакты</Link>
-        </p>
-        <p className={'str'}>
-          <Link to={'/katalog'}>Каталог </Link>
-        </p>
-      </div>
-    </div>
+    <footer className="bg-black py-1">
+      <Container>
+        <Row>
+          <Col md={4}>
+            <p className="mb-0 text-white">Nike</p>
+          </Col>
+          <Col md={8} className="d-flex justify-content-end">
+            <ul className="list-inline mb-0 align-self-center">
+              <li className="list-inline-item">
+                <a href="#">
+                  <img src="../assest/free-icon-vk-3670055.png" alt="VK" />
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#">
+                  <img
+                    src="../assest/free-icon-instagram-3955024.png"
+                    alt="Instagram"
+                  />
+                </a>
+              </li>
+              <li className="list-inline-item">
+                <a href="#">
+                  <img
+                    src="../assest/free-icon-telegram-4401433.png"
+                    alt="Telegram"
+                  />
+                </a>
+              </li>
+              <li className="list-inline-item ">
+                <p className="mb-0 text-white">Подписывайся</p>
+              </li>
+            </ul>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
   )
 }
+
+export default Footer

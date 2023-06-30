@@ -7,8 +7,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #fafafa;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@700&display=swap');
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Cormorant', serif;
 }

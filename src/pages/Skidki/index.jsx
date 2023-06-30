@@ -1,218 +1,74 @@
 import './style.scss'
-
-const SkidkiPage = () => {
-  return (
-    <div className="skidki">
-      <div className="skidkis_header">
-        <h1 class="sohr">Сохраняем цены</h1>
-        <h3 className="product">Продукты по ценам 2021 года</h3>
-        <div className={'tovars'}>
-          <div className={'tovar'}>
-            <img className={'t1'} src={'/images/t1.png'}></img>
-            <table>
-              <tr>
-                <th>Sun</th>
-                <th>90pуб</th>
-              </tr>
-              <tr>
-                <td>бомбочка для ванны</td>
-                <td>20g</td>
-              </tr>
-            </table>
-            <div>
-              <button className={'Podrob'}>Подробнее</button>
+import React, { Component } from 'react'
+import { Container, Row, Col, Button, ButtonGroup } from 'react-bootstrap'
+export default class SkidkiPage extends Component {
+  render() {
+    return (
+      <Container luid className="p-0" style={{ overflowX: 'hidden' }}>
+        <div style={{ marginTop: '5px' }}></div>
+        <Row className="gx-5">
+          <Col>
+            <div className="p-3">
+              <div className="d-flex justify-content-center">
+                <img
+                  src="/images/sport.png"
+                  className="img-fluid rounded"
+                  style={{ width: '400px', height: 'auto' }}
+                />
+              </div>
+              <Row>
+                <Col xs={12} md={4} className="mb-3">
+                  <img
+                    src="/images/Product 08 1.png"
+                    className="img-fluid rounded"
+                    style={{
+                      width: '100%',
+                      height: 'auto',
+                    }}
+                  />
+                </Col>
+                <Col xs={12} md={4} className="mb-3">
+                  <img
+                    src="/images/Product 09 1.png"
+                    className="img-fluid rounded"
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                </Col>
+                <Col xs={12} md={4} className="mb-3">
+                  <img
+                    src="/images/Product 11 1.png"
+                    className="img-fluid rounded"
+                    style={{ position: ' relative', top: '-21px' }}
+                  />
+                </Col>
+              </Row>
+              <Row>
+                <Col xs={12} md={4} className="mb-3">
+                  <img
+                    src="/images/Product 10 1.png"
+                    className="img-fluid rounded"
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                </Col>
+                <Col xs={12} md={4} className="mb-3">
+                  <img
+                    src="/images/Product 12 1.png"
+                    className="img-fluid rounded"
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                </Col>
+                <Col xs={12} md={4} className="mb-3">
+                  <img
+                    src="/images/Product 13 1.png"
+                    className="img-fluid rounded"
+                    style={{ width: '100%', height: 'auto' }}
+                  />
+                </Col>
+              </Row>
             </div>
-          </div>
-          <div className={'tovar'}>
-            <img className={'t2'} src={'/images/t2.png'}></img>
-            <table>
-              <tr>
-                <th>Levender</th>
-                <th>290pуб</th>
-              </tr>
-              <tr>
-                <td>мыло ручной работы</td>
-                <td>50g</td>
-              </tr>
-            </table>
-            <div>
-              <button className={'Podrob'}>Подробнее</button>
-            </div>
-          </div>
-          <div className={'tovar'}>
-            <img className={'t3'} src={'/images/t3.png'}></img>
-            <table>
-              <tr>
-                <th>Lotos</th>
-                <th>890pуб</th>
-              </tr>
-              <tr>
-                <td>маска для лица</td>
-                <td>50ml</td>
-              </tr>
-            </table>
-            <div>
-              <button className={'Podrob'}>Подробнее</button>
-            </div>
-          </div>
-          <div className={'tovar'}>
-            <img className={'t4'} src={'/images/t4.png'}></img>
-            <table>
-              <tr>
-                <th>Coconut</th>
-                <th>990pуб</th>
-              </tr>
-              <tr>
-                <td>масло для тела</td>
-                <td>300ml</td>
-              </tr>
-            </table>
-            <div>
-              <button className={'Podrob'}>Подробнее</button>
-            </div>
-          </div>
-          <div className={'tovar'}>
-            <img className={'t5'} src={'/images/t5.png'}></img>
-            <table>
-              <tr>
-                <th>Clean</th>
-                <th>490pуб</th>
-              </tr>
-              <tr>
-                <td>маска для лица</td>
-                <td>100g</td>
-              </tr>
-            </table>
-            <div>
-              <button className={'Podrob'}>Подробнее</button>
-            </div>
-          </div>
-          <div className={'tovar'}>
-            <img className={'t6'} src={'/images/t6.png'}></img>
-            <table>
-              <tr>
-                <th>Violet</th>
-                <th>890pуб</th>
-              </tr>
-              <tr>
-                <td>крем для лица</td>
-                <td>50ml</td>
-              </tr>
-            </table>
-            <div>
-              <button className={'Podrob'}>Подробнее</button>
-            </div>
-          </div>
-          <div className={'tovar'}>
-            <img className={'t7'} src={'/images/t7.png'}></img>
-            <table>
-              <tr>
-                <th>Paradise</th>
-                <th>590pуб</th>
-              </tr>
-              <tr>
-                <td>минеральная пудра</td>
-                <td>15g</td>
-              </tr>
-            </table>
-            <div>
-              <button className={'Podrob'}>Подробнее</button>
-            </div>
-          </div>
-          <div className={'tovar'}>
-            <img className={'t8'} src={'/images/t8.png'}></img>
-            <table>
-              <tr>
-                <th>Milk</th>
-                <th>790pуб</th>
-              </tr>
-              <tr>
-                <td>масло для тела</td>
-                <td>150ml</td>
-              </tr>
-            </table>
-            <div>
-              <button className={'Podrob'}>Подробнее</button>
-            </div>
-          </div>
-          <div className={'tovar'}>
-            <img className={'t10'} src={'/images/t10.png'}></img>
-            <table>
-              <tr>
-                <th>Rest</th>
-                <th>690pуб</th>
-              </tr>
-              <tr>
-                <td>минеральная пудра</td>
-                <td>20g</td>
-              </tr>
-            </table>
-            <div>
-              <button className={'Podrob'}>Подробнее</button>
-            </div>
-          </div>
-          <div className={'tovar'}>
-            <img className={'t9'} src={'/images/t9.png'}></img>
-            <table>
-              <tr>
-                <th>Rose</th>
-                <th>890pуб</th>
-              </tr>
-              <tr>
-                <td>крем для лица</td>
-                <td>50ml</td>
-              </tr>
-            </table>
-            <div>
-              <button className={'Podrob'} href="/kartochka">
-                Подробнее
-              </button>
-            </div>
-          </div>
-          <div className={'tovar'}>
-            <img className={'t11'} src={'/images/t11.png'}></img>
-            <table>
-              <tr>
-                <th>High</th>
-                <th>990pуб</th>
-              </tr>
-              <tr>
-                <td>крем для лица</td>
-                <td>50ml</td>
-              </tr>
-            </table>
-            <button className={'Podrob'} onclick="location.href = '/kartochka'">
-              Подробнее
-            </button>
-          </div>
-          <div className={'tovar'}>
-            <img className={'t12'} src={'/images/t12.png'}></img>
-            <table>
-              <tr>
-                <th>Earth</th>
-                <th>890pуб</th>
-              </tr>
-              <tr>
-                <td>бомбочка для ванны</td>
-                <td>20g</td>
-              </tr>
-            </table>
-            <div>
-              <button className={'Podrob'}>Подробнее</button>
-            </div>
-          </div>
-        </div>
-        <div>
-          <img className={'PrisoedFon1'} src={'/images/60.png'}></img>
-          <div className="Pr11">Присоединяйтесь к нам</div>
-          <div className="Pr111">
-            Подпишитесь на наш аккаунт @marooncare<br></br> и узнавайте о
-            новиках и акциях первыми
-          </div>
-        </div>
-      </div>
-    </div>
-  )
+          </Col>
+        </Row>
+      </Container>
+    )
+  }
 }
-
-export default SkidkiPage

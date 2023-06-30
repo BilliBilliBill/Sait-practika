@@ -1,24 +1,40 @@
-import './style.scss'
+import React, { Component } from 'react'
+import { Container } from 'react-bootstrap'
 
-const ContactPage = () => {
-  return (
-    <div className="contacts">
-      <div className="contacts_header">
-        <div className="medium-text1">MarooN</div>
-        <div className={'contact1'}>
-          <img className={'Cont11'} src={'/images/Rectangle 38.png'}></img>
-          <div className={'Contacti11'}>Контакты</div>
-          <div className={'naz11'}>Адрес</div>
-          <div className={'tex11'}> ул. Большая Конюшенная, 19</div>
-          <div className={'naz11'}>Телефон</div>
-          <div className={'tex11'}>+7 (923) 888-90-60</div>
-          <div className={'naz11'}>E-mail</div>
-          <div className={'tex11'}>info@maroon.ru</div>
+export default class ContactPage extends Component {
+  render() {
+    return (
+      <Container fluid className="p-0" style={{ overflowX: 'hidden' }}>
+        <div style={{ marginTop: '85px' }}></div>
+        <div className="row gx-5">
+          <div className="col">
+            <div className="p-3">
+              <h3 style={{ marginTop: '35px' }}>Контакты</h3>
+              <div style={{ marginTop: '25px' }}>
+                <h3>Адрес</h3>
+                <h4 style={{ marginTop: '5px' }}>
+                  г. Барнаул, ул. Сухэ-Батора, 37
+                </h4>
+                <h3 style={{ marginTop: '5px' }}>Телефон</h3>
+                <h4 style={{ marginTop: '5px' }}>+7 (962) 804-96-74</h4>
+                <h3 style={{ marginTop: '5px' }}>E-mail</h3>
+                <h4 style={{ marginTop: '5px' }}>gymstrong@mail.ru</h4>
+              </div>
+            </div>
+          </div>
+          <div className="col">
+            <div className="p-3" style={{ marginRight: '50px' }}>
+              <iframe
+                className="iframe"
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A09c6901f6fb959501ce89aa07da3f80f02d3a53ab4b6275138f5d09c96f935a3&amp;source=constructor"
+                width="813"
+                height="500"
+                frameBorder="0"
+              ></iframe>
+            </div>
+          </div>
         </div>
-      </div>
-      <contacts__footer></contacts__footer>
-    </div>
-  )
+      </Container>
+    )
+  }
 }
-
-export default ContactPage
