@@ -1,3 +1,22 @@
+.bg-blue {
+  background-color: #eaf4fd; /* You can adjust the color as needed */
+}
+.promotion-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: rgb(255, 255, 255); 
+}
+
+
+.promotion-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #f57224; 
+}
+
+
+
+
 .custom-card {
   border: none;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -28,8 +47,8 @@
   width: 100%;
 
   &.btn-primary {
-    background-color: #8b4513;
-    border-color: #8b4513;
+    background-color: #d27a22;
+    border-color: #d27a22;
     font-size: 14px;
     padding: 8px 20px;
     transition: background-color 0.3s ease, border-color 0.3s ease,

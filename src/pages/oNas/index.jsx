@@ -1,75 +1,55 @@
 import React, { Component } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
+import './style.scss'
 
 export default class ONasPage extends Component {
   render() {
     return (
-      <Container
-        fluid
-        className="p-0"
-        style={{ overflowX: 'hidden', background: '#F8F8F8' }}
-      >
-        <Row className="gx-5">
-          <Col>
-            <div className="p-2" style={{ marginTop: '85px', width: '100%' }}>
-              <h2 className="text-start">ДАРИМ НАСТРОЕНИЕ</h2>
-              <h4 className="text-start">
-                Уникальность кофе Evadia заключается в особом
-                <br />
-                ассортименте сортов, которые отбираются с учетом
-                <br />
-                высоких требовний к вкусу, соотношению цены к
-                <br />
-                качеству. Каждый сорт кофе обжаривается с учетом своих
-                <br />
-                уникальных характеристик, чтобы максимально
-                <br />
-                раскрылся вкус напитка. Утренний кофе станет для вас
-                <br />
-                настоящей церемонией
-              </h4>
+      <div className="background-image">
+        <Container className="text-center my-5 ">
+        <div className="card" style={{ width: '100%', maxWidth: '2000px' }}>
+            <div className="row g-0">
+              <div className="col-md-4">
+                <img
+                  src="/images/мужик.png"
+                  alt="Equipment"
+                  className="img-fluid"
+                />
+              </div>
+              <div className="col-md-8" style={{ backgroundColor: 'white' }}>
+                <div className="card-body" style={{ backgroundColor: 'white' }}>
+                  <h1
+                    className="card-title"
+                    style={{
+                      color: '#333',
+                      fontWeight: 'bold',
+                      backgroundColor: 'white',
+                    }}
+                  >
+                    Наша Миссия
+                  </h1>
+                  <h4
+                    className="card-text"
+                    style={{ color: '#666', backgroundColor: 'white' }}
+                  >
+YouPlay – это уютный компьютерный клуб, где каждый геймер найдет
+              свое место. Мы оборудовали наш клуб всем необходимым для
+              захватывающей онлайн-игры и незабываемого временипрепровождения.
+              Здесь собираются ценители активного киберспортивного опыта и
+              виртуального отдыха. Наша миссия - создать атмосферу, в которой вы
+              сможете полностью погрузиться в мир игр, встретить
+              единомышленников и сразиться с достойными противниками. Мощные
+              компьютеры и комфортная атмосфера позволят вам насладиться игрой
+              на полную мощность, без каких-либо помех.
+                  </h4>
+                  
+                </div>
+              </div>
             </div>
-            <div
-              className="p-2 text-end"
-              style={{ marginTop: '85px', width: '100%' }}
-            >
-              <img
-                src="../images/Screenshot_1.png"
-                className="float-left"
-                width="100%"
-                alt="Coffee Image"
-              />
-            </div>
-          </Col>
-          <Col>
-            <div
-              className="p-2 text-end"
-              style={{ marginTop: '85px', width: '100%' }}
-            >
-              <img
-                src="../images/image 2.png"
-                className="float-left"
-                width="100%"
-                alt="Coffee Image"
-              />
-            </div>
-            <div style={{ marginTop: '85px', width: '100%' }}>
-              {' '}
-              <h2>
-                ПОСТОЯННОЕ ИЗУЧЕНИЕ ВСЕХ ОБЛАСТЕЙ ЗНАНИЙ СВЯЗАННЫХ С КОФЕ,
-                ОБОБЩЕНИЕ МИРОВОГО ОПЫТА И ПРИМЕНЕНИЯ ИННОВАЦИЙ, ПОМОГАЮТ НАМ
-                МАКСИМАЛЬНО РАСКРЫТЬ БОГАТСТВО КОФЕЙНОГО ВКУСА.
-              </h2>
-              <h4>
-                Наше современное производство расположено в ближайшем
-                Подмосковье в г. Железнодорожном. Производственное планирование
-                и тщательно выверенная логистика позволяют полностью отгружать
-                кофе в течение первых суток с момента обжарки.
-              </h4>
-            </div>
-          </Col>
-        </Row>
-      </Container>
+
+        </div>
+        </Container>
+      </div>
     )
   }
 }

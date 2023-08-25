@@ -5,96 +5,122 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap'
 export default class CatalogPage extends Component {
   render() {
     return (
-      <Container fluid className="p-0" style={{ overflowX: 'hidden' }}>
-        <h2 className="text-center">КАТАЛОГ ТОВАРОВ</h2>
-        <Container style={{ marginTop: '45px' }}>
-          <Row className="gx-4 gy-4">
+      <Container fluid className="p-0 " style={{ overflowX: 'hidden' }}>
+        <Card>
+
+            <img src="/images/A1.png" alt="Equipment" className="img-fluid" />
+            <img src="/images/A2.png" alt="Equipment" className="img-fluid" />
+        </Card>
+        <h4 className="text-center " style={{ marginTop: '45px' }}>
+          Акционные Кейсы клуба на Пк <br></br> <br></br>Акции клуба актуальны на весь 2023 год.
+          Действуют только в<br></br> клубе на Щелковской. Об изменениях условий и форм
+          акций вы<br></br> всегда можете узнать в наших социальных сетях и у админов<br></br>
+          клуба. При активации кейса не забывайте сообщить админу<br></br> кодовое слово.
+        </h4>
+        <Container className="bg-blue" style={{ marginTop: '45px' }}>
+          <Row className="gx-4 gy-4 ">
             <Col xs={12} sm={6} md={4} lg={3}>
               <Card>
-                <Card.Img variant="top" src="/images/milano712.png" />
                 <Card.Body>
-                  <Card.Title>MILANO (712)</Card.Title>
-                  <Card.Text>
-                    темный шоколад, карамель, фундук. бленд Бразилия, Вьетнам
-                    робуста 50%
+                  <Card.Title className="promotion-title text-center">
+                    #Киберканикулы
+                  </Card.Title>
+                  <Card.Text className="promotion-price text-center">
+                    270 Руб
                   </Card.Text>
-                  <Button variant="primary">Купить</Button>
+                  <Card.Text>
+                    4 часа игры. Акция действует только для школьников в период
+                    каникул. Щелковское
+                  </Card.Text>
+                  <Button variant="primary">Кодовое слово</Button>
                 </Card.Body>
               </Card>
             </Col>
             <Col xs={12} sm={6} md={4} lg={3}>
               <Card>
-                <Card.Img variant="top" src="/images/BRAZIL SANTOS 347.png" />
                 <Card.Body>
-                  <Card.Title>БРАЗИЛИЯ САНТОС 17/18</Card.Title>
-                  <Card.Text>
-                    шоколад, карамель, орех<br></br>
-                    <br></br>
-                    <br></br>
+                  <Card.Title className="promotion-title text-center">
+                    #КиберШок
+                  </Card.Title>
+                  <Card.Text className="promotion-price text-center">
+                    280 Руб
                   </Card.Text>
-                  <Button variant="primary">Купить</Button>
+                  <Card.Text>
+                    3 часа игры Акция действует с пон по пят., в будние дни С
+                    10:00 до 17:00 Щелковское
+                  </Card.Text>
+                  <Button variant="primary">Кодовое слово</Button>
                 </Card.Body>
               </Card>
             </Col>
 
             <Col xs={12} sm={6} md={4} lg={3}>
               <Card>
-                <Card.Img variant="top" src="/images/311.png" />
                 <Card.Body>
-                  <Card.Title>БРАЗИЛИЯ ИПАНЕМА ДУЛЬЧЕ</Card.Title>
-                  <Card.Text>
-                    нектарин, карамель, миндаль, шоколад. Высокая сладость.
-                    <br></br>
-                    <br></br>
+                  <Card.Title className="promotion-title text-center">
+                    #КиберУтро
+                  </Card.Title>
+                  <Card.Text className="promotion-price text-center">
+                    210 Руб
                   </Card.Text>
-                  <Button variant="primary">Купить</Button>
+                  <Card.Text>
+                    4 часа игры. Акция действует с пон. по воскр. 07:00 утра до
+                    11:00. Щелковское
+                  </Card.Text>
+                  <Button variant="primary">Кодовое слово</Button>
                 </Card.Body>
               </Card>
             </Col>
 
             <Col xs={12} sm={6} md={4} lg={3}>
               <Card>
-                <Card.Img variant="top" src="/images/DESIRE DARK 800.png" />
                 <Card.Body>
-                  <Card.Title>DESIRE DARK 800</Card.Title>
-                  <Card.Text>
-                    темный шоколад, сухофрукты, миндаль. бленд Эфиопия, Вьетнам
-                    робуста 40%
+                  <Card.Title className="promotion-title text-center">
+                    #КиберПушка
+                  </Card.Title>
+                  <Card.Text className="promotion-price text-center">
+                    380 Руб
                   </Card.Text>
-                  <Button variant="primary">Купить</Button>
+                  <Card.Text>
+                    5 часов игры. Акция действует в будние дни с 13:00 - 18:00.
+                    м.Щелковское
+                  </Card.Text>
+                  <Button variant="primary">Кодовое слово</Button>
                 </Card.Body>
               </Card>
             </Col>
 
             <Col xs={12} sm={6} md={4} lg={3}>
               <Card>
-                <Card.Img variant="top" src="/images/DEVIL ENERGY 800.png" />
                 <Card.Body>
-                  <Card.Title>DEVIL ENERGY 800</Card.Title>
-                  <Card.Text>
-                    шоколад, карамель, чернослив. купаж
-                    Эфиопия,Мексика,Колумбия.
+                  <Card.Title className="promotion-title text-center">
+                    #CyberGirl
+                  </Card.Title>
+                  <Card.Text className="promotion-price text-center">
+                    Free Руб
                   </Card.Text>
-                  <Button variant="primary">Купить</Button>
-                </Card.Body>
-              </Card>
-            </Col>
-
-            <Col xs={12} sm={6} md={4} lg={3}>
-              <Card>
-                <Card.Img
-                  variant="top"
-                  src="/images/VIETNAM DA LAT SCREEN18 314.png"
-                />
-                <Card.Body>
-                  <Card.Title>VIETNAM DA LAT SCREEN18 314</Card.Title>
-                  <Card.Text>персик, карамель, молочный шоколад</Card.Text>
-                  <Button variant="primary">Купить</Button>
+                  <Card.Text>
+                    Весь день игры за компом для девчонок - бесплатно по средам
+                    с 12:00 - 15:00. Сокольники , Щелковское
+                  </Card.Text>
+                  <Button variant="primary">Кодовое слово</Button>
                 </Card.Body>
               </Card>
             </Col>
           </Row>
         </Container>
+        <div style={{ marginTop: '45px' }}>
+          <img src="/images/бронь.png" width="100%" />
+        </div>
+        <div>
+          <h3 className="text-center" style={{ marginTop: '45px' }}>
+            Акционные Кейсы клуба на аренду ТВ<br></br><br></br> Акции клуба актуальны на весь
+            2023 год. Акции действуют<br></br> только в клубе на Щелковской-Сокольники.
+            Об изменениях <br></br>условий и форм акций вы всегда можете узнать в наших<br></br>
+            социальных сетях и у админов клуба. При активации кейса не<br></br> забывайте
+            сообщить админу кодовое слово
+          </h3>
+        </div>
       </Container>
     )
   }
